@@ -1,3 +1,6 @@
+import { API_ROUTES, BASE_URLS } from "../utils/apiUrl";
+import axiosInstance from "./axios-interceptor";
+
 /**
  * fetchStatesForIndia fetches the list of states in India.
  * It sends a POST request to the API to get the list of states, processes the response,
