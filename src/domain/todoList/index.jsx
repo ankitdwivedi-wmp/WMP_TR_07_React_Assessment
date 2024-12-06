@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'; // Importing React and hooks (useState, useEffect)
-import TaskInput from './TaskInput'; // Importing the TaskInput component
-import TaskList from './TaskList'; // Importing the TaskList component
-import CommonButton from '../../components/buttons'; // Importing the CommonButton component
-import Card from '../../components/card'; // Importing the Card component
+import React, { useState, useEffect } from 'react';
+import TaskInput from './TaskInput';
+import CommonButton from '../../components/buttons';
+import Card from '../../components/card';
 
 const TodoList = () => {
   // State to manage the tasks; initializes with tasks from localStorage or an empty array

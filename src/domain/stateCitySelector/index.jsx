@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import StateDropdown from './StateDropdown'; // Dropdown for state selection
-import CityDropdown from './CityDropdown'; // Dropdown for city selection
-import SelectionDisplay from './SelectionDisplay'; // Component to display selected state and city
-import { fetchCitiesForState, fetchStatesForIndia } from '../../services/api-service'; // API service functions
-import Card from '../../components/card'; // Reusable Card component for UI layout
+import StateDropdown from './StateDropdown';
+import CityDropdown from './CityDropdown'; 
+import SelectionDisplay from './SelectionDisplay';
+import { fetchCitiesForState, fetchStatesForIndia } from '../../services/api-service'; 
+import Card from '../../components/card'; 
 
 /**
  * StateCitySelector component provides functionality to select a state and corresponding city.

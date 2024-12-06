@@ -14,12 +14,11 @@ function Nav() {
 
   return (
     <div className="header sticky top-0 bg-white shadow-md flex items-center justify-between px-8 py-2">
-      {/* Logo or Branding Section (optional) */}
       <div className="text-lg font-semibold">
         <Link to="/">APP</Link>
       </div>
 
-      {/* Mobile Hamburger Icon */}
+      {/* Mobile Icon */}
       <div className="lg:hidden flex items-center" onClick={toggleMenu}>
         <button className="text-gray-800 focus:outline-none">
           <svg

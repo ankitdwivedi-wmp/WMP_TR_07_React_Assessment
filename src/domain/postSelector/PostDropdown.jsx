@@ -13,10 +13,6 @@ const PostDropdown = ({ onPostSelect }) => {
   // State to store the list of posts fetched from the API
   const [posts, setPosts] = useState([]);
 
-  /**
-   * useEffect hook to fetch posts from the API when the component mounts.
-   * Uses an asynchronous function to handle API calls and manages errors.
-   */
   useEffect(() => {
     const fetchPosts = async () => {
       try {

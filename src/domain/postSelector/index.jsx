@@ -23,7 +23,7 @@ const PostSelector = () => {
 
   return (
     <Card>
-      {/* Renders a heading for the Post Selector section */}
+      {/* heading for the Post Selector section */}
       <h1 className="text-5xl font-bold text-gray-800 mb-4 text-center">
         Post Selector
       </h1>
