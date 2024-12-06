@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TaskList from './TaskList';
 import TaskInput from './TaskInput';
 import CommonButton from '../../components/buttons';
 import Card from '../../components/card';
@@ -80,6 +81,7 @@ const TodoList = () => {
       
       {/* TaskList component displays tasks based on the current filter */}
       <TaskList
+
         tasks={filteredTasks}
         toggleTaskCompletion={toggleTaskCompletion} // Function to toggle completion of tasks
         deleteTask={deleteTask} // Function to delete a task
